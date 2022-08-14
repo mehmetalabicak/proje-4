@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"/>  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"/>     
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <title>Document</title>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collepse" data-target="navbarsexampledefault" aria-controls="navbarsexampledefault" aria-expanded="false" aria-label="Deneme">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+              <div class="collapse navbar-collapse justify-content-end" id="navbarsexampledefault">
+            <ul class="navbar-nav m-auto">
+                <li class="navbar-item">
+                    <a class="nav-link" href="index.html">Anasayfa</a>
+                </li>
+                <li class="navbar-item m-auto">
+                    <a class="nav-link" href="#">Kategori</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#">Ürünler</a>
+                </li>
+                <li class="navbar-item active">
+                    <a class="nav-link" href="sepet.html">Sepet</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                </li>
+              
+            </ul>
+            <form class="form inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Arama">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-primary btn-number">
+                            <i class="fa fa-search"></i>
+
+                        </button>
+
+                    </div>
+                </div>
+                <a class="btn btn-success btn-xxl ml-1" href="sepet.html">
+                <i class="fa fa-shopping-cart">Sepet</i>
+                <span class="badge badge-light">3</span>
+            </a>
+            </form>
+           
+        </div>
+        </div>
+    </nav>
+    <section class="jumbotron text-centre">
+        <div class="container">
+            <h1 class="jumbotron-heading">E-TİCARET</h1>
+            <p class="lead text-muted mb-o">ALIŞVERİŞ SEPETİ</p>
+
+        </div>
+
+    </section>
+    <div class="container">
+        <div class="row"> <!--satır-->
+            <div class="col-12"><!--sütun-->
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Ürün</th>
+                                <th scope="col">Durum</th>
+                                <th scope="col" class="text-centre">Miktar</th>
+                                <th scope="col" class="text-right">Fiyat</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://icdn.ensonhaber.com/resimler/galeri/1-_3.199_1.jpg" width="50" height="50"/></td>
+                                <td>Telefon </td>
+                                <td>Stokta</td>
+                                <td><input class="form-control" type="text" value="1"/></td>
+                                <td class="text-right">3.500.00TL</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+
+                            </tr>
+                            <tr>
+                                <td><img src="https://cdn.dsmcdn.com/ty141/product/media/images/20210706/13/107547587/89621740/1/1_org_zoom.jpg" width="55" height="50"/></td>
+                                <td>Bilgisayar </td>
+                                <td>Stokta</td>
+                                <td><input class="form-control" type="text" value="1"/></td>
+                                <td class="text-right">10.500.00TL</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+
+                            </tr>
+                            <tr>
+                                <td><img src="	https://productimages.hepsiburada.net/s/41/375/10685509861426.jpg" width="50" height="50"/></td>
+                                <td>Tablet</td>
+                                <td>Stokta</td>
+                                <td><input class="form-control" type="text" value="1"/></td>
+                                <td class="text-right">1.500.00TL</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></button></td>
+
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Toplam</td>
+                                <td class="text-right">15.500.00TL</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>KDV</td>
+                                <td class="text-right">2.000.00TL</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>GENEL TOPLAM</td>
+                                <td class="text-right">17.500.00TL</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col"><!--satır-->
+                <div class="row"><!--sütun-->
+                    <div class="col-sm-12 col-md-6"><!--siparişe devam et-->
+                        <button class="btn btn-block btn-success">Siparişe Devam Et</button>
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 text-right">
+                        <button class="btn btn-block btn-primary">Siparişi Bitir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="text-light bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 log-lg-4 col-xl-3">
+                    <h5>Hakkımızda</h5>
+                    <hr class="bg-white mb-2 d-inline-block mx-auto w-20">
+                    <p>Şirketimizle İlgili Bilgiler</p>
+
+                </div>
+                <div class="col-md-2 log-lg-2 col-xl-2 mx-auto">
+                    <h5>Bilgiler</h5>
+                    <hr class="bg-white mb-2 d-inline-block mx-auto w-20">
+                    <ul class="list-unstyled">
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                        <li><a href="">Link</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 log-lg-2 col-xl-2 mx-auto">
+                    <h5>Sosyal Medya</h5>
+                    <hr class="bg-white mb-2 d-inline-block mx-auto w-20">
+                    <ul class="list-unstyled">
+                        <li><a href="">İnstagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Linkedin</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2 log-lg-2 col-xl-2">
+                    <h5>İletişim</h5>
+                    <hr class="bg-white mb-2 d-inline-block mx-auto w-20">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-home mr-4"> Şirketimiz</i></li>
+                        <li><i class="fa fa-envelope mr-4"> aaaa@gmail.com</i></li>
+                        <li><i class="fa fa-phone mr-4"> 05555555555</i></li>
+                        <li><i class="fa fa-print mr-4"> 03333333333</i></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
